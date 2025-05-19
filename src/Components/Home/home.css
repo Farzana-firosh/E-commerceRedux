@@ -1,0 +1,130 @@
+.home_div_2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    padding: 15px;
+    height: 150px;
+
+}
+.div2_2{
+display: flex;
+gap: 10px;
+}
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;     
+  background-color: #e0e0e0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+.icon_text{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.home-cards {
+  justify-content: center;
+  background-color:black
+  
+}
+
+.home-card {
+  max-width: 400px; 
+  border: none;     
+}
+
+.home-card img {
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.circle-card {
+  width: 180;
+  box-shadow: none !important;
+}
+
+.circle-img {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 50% ; 
+  border: 2px solid #ccc; 
+  gap:20px;
+}
+.circle_card_div{
+gap: 30px;
+}
+.home_cateogry{
+display: flex;
+flex: wrap;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 10px;
+}
+.home_product_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: black;
+    width: 100vw;
+    padding: 10px;
+
+}
+.product-card-small {
+  width: 200px;
+  /* height: 400px; */
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  max-height:420px;
+  overflow: hidden;
+
+}
+
+.productcard_image {
+  max-height: 130px;
+  object-fit: contain;
+  width: 100%;
+}
+.page_heading{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.button_cart{
+  padding: 10px;
+}
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 4px; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-text {
+  font-size: 1rem;
+  max-height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+}
+
+.button_cart {
+  padding: 5px 10px;
+  font-size: 1rem;
+  margin-top: 6px;
+}

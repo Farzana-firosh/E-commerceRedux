@@ -1,0 +1,71 @@
+.image-container{
+    padding: 10px;
+}
+.productcardimage{
+    /* background-color: rgb(252, 252, 252); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 190px;
+    object-fit: contain;
+    border: 2px solid rgb(254, 252, 252);
+    border-radius: 5px;
+    box-shadow: 0 25px 50px -12px  #6e749b40;
+    transition: 0.3s ease;
+
+}
+.card{
+    box-shadow: 0 2px 1px #6e749b17;
+    border-radius: 2px;
+        transition: 0.3s ease;
+
+}
+.card:hover{
+    transform: scale(1.02)
+}
+.productcardimage:hover{
+    transform: scale(1.06) 
+}
+.card-title {
+  white-space: nowrap;       
+  overflow: hidden;          
+  text-overflow: ellipsis;    
+  display: block;
+  width: 100%;
+}
+.card-body {
+  height: auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-text {
+  white-space: nowrap;       
+  overflow: hidden;          
+  text-overflow: ellipsis;    
+  display: block;
+  width: 100%;
+}
+.button_cart{
+    background-color: black !important
+}
+
+.card-title-link {
+  color: black;
+  text-decoration: none !important;
+  font-size: 1rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  width: 100%;
+}
+
+.card-title-link:hover {
+  text-decoration: none;
+  color: #000; /* Optional: keep same color on hover */
+}
+
+
