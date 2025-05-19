@@ -1,0 +1,15 @@
+.signup_container{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+width: 60vw;
+height: 80vh;
+padding: 20px;
+background-color: rgb(213, 217, 217);
+border-radius: 10px;
+box-sizing: border-box;
+box-shadow: 1px 1px 10px rgb(69, 2, 2);
+
+  
+
+}
